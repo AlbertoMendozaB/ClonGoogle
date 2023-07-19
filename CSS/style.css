@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;    
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 60px;
+    padding: 6px;
+}
+
+header .parteDerecha{
+    display: flex;
+    gap: 12px;
+    align-items: center;   
+}
+
+header .parteDerecha a{
+    text-decoration: none;
+}
+
+
+header .parteDerecha a .logoPuntos{
+    height: 16px;
+    width: 16px;
+}
+
+header .parteDerecha a #fotoPerfil{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+section .logoGoogle{
+    width: 272px;
+}
+
+section .inputBuscar{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+section .contenedorBuscador{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500x;
+    height: 45;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+}
+
+section .inputBuscar input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+
+}
+
+section .contenedorBuscador:hover{
+    box-shadow: 0 1px 6px #20212447;
+}
+
+section .inputBuscar .lupita{
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+section .inputBuscar .microfonoBuscar{
+    background-image: url('https://w7.pngwing.com/pngs/611/272/png-transparent-blue-red-and-yellow-google-voice-logo-microphone-google-voice-google-search-google-logo-microphone-angle-electronics-search-engine-optimization.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+section .inputBuscar .lensLogo{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+section .botones{
+    width: 530px;
+    margin: 0 auto;
+}
+
+section .botones button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;    
+}
+
+section .botones button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px #dadce0;
+    color: #202124
+}
+
+section .Pais{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: #202124;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0in;
+}
+
+footer .footerIzquierda{
+    justify-content: left;
+}
+
+footer .footerDerecha{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
